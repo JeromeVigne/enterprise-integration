@@ -3,28 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "integrationServiceEnvironmentName": {
-            "value": "ise-test-jrmvgn001"
+            "value": "ise-test-jrmvgn002"
         },
         "managedConnectors": {
           "value": ["servicebus", "azureblob"]
         },
         "vnetName": {
-            "value": "vnet-test-ise001"
+            "value": "vnet-ise-test-002"
         },
-        "vnetAddressPrefix": {
-            "value": "10.0.0.0/22"
+        "subnet1Name": {
+          "value": "Subnet1"
         },
-        "subnet1Prefix": {
-          "value": "10.0.1.0/26"
+        "subnet2Name": {
+          "value": "Subnet2"
         },
-        "subnet2Prefix": {
-          "value": "10.0.1.64/26"
+        "subnet3Name": {
+          "value": "Subnet3"
         },
-        "subnet3Prefix": {
-          "value": "10.0.1.128/26"
-        },
-        "subnet4Prefix": {
-          "value": "10.0.1.192/26"
+        "subnet4Name": {
+          "value": "Subnet4"
         }
     }
   }
